@@ -11,6 +11,7 @@ fi
 git clone --depth 1 https://git.suckless.org/dwm
 
 cp *diff dwm/
+cp config.h dwm/
 cd dwm/
 
 for patchfile in $(ls *diff); do
